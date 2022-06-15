@@ -1,0 +1,42 @@
+@import "./global/global.css";
+
+
+main {
+    width: 50vw;
+    height: 18vw;
+
+    background: #141414 ;
+    
+    border-radius: .3vw;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 10vw;
+    height: 4vw;
+    background-color: red;
+}
+
+section {
+    height: 100%;
+    width: 40%;
+
+    background-color: blue;
+}
+
+button[disabled="disabled"] {
+    background-color: black;
+    cursor: not-allowed;
+    color: white;
+}
+
+.active {
+    background-color: blue;
+}
